@@ -1,0 +1,43 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - ZSLogin (0.1.0):
+    - ZSNetworking
+  - ZSNetworking (0.1.0):
+    - AFNetworking
+
+DEPENDENCIES:
+  - ZSLogin (from `Lib/ZSLogin`)
+  - ZSNetworking (from `Lib/ZSNetworking`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+
+EXTERNAL SOURCES:
+  ZSLogin:
+    :path: Lib/ZSLogin
+  ZSNetworking:
+    :path: Lib/ZSNetworking
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  ZSLogin: f06cfe60a730ccd9e5fba932cadae1bd4eb71d3b
+  ZSNetworking: 1458cae821c64af7b20c671937b69c4e517e30c1
+
+PODFILE CHECKSUM: 5a78304bb7988f16732919788d72718e26d6925b
+
+COCOAPODS: 1.5.3
